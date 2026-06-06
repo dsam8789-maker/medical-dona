@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dona Medical Center</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Dona</a>
+      <div class="header-actions">
+        <a class="auth-link" href="login.html">Sign in</a>
+      </div>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Comprehensive Medical Care</p>
+          <h1>Dona Medical Center for Professional Healthcare</h1>
+          <p>We provide complete family care with a team of specialists and modern medical technology.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="contact.html">Book Appointment</a>
+            <a class="button secondary" href="services.html">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/images/clinic.svg" alt="Medical clinic" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article class="feature-card">
+        <img src="assets/images/doctor.svg" alt="Doctor" loading="lazy">
+        <h2>Specialized Doctors</h2>
+        <p>A professional medical team in cardiology, dentistry, women’s health, pediatrics, and nutrition.</p>
+      </article>
+      <article class="feature-card">
+        <img src="assets/images/caring.svg" alt="Care" loading="lazy">
+        <h2>Personalized Care</h2>
+        <p>Services tailored to each patient with the highest quality standards.</p>
+      </article>
+      <article class="feature-card">
+        <img src="assets/images/support.svg" alt="Support" loading="lazy">
+        <h2>Continuous Support</h2>
+        <p>Ongoing health follow-up and medical advice always available.</p>
+      </article>
+    </section>
+
+    <section class="about-preview container">
+      <div class="about-text">
+        <p class="eyebrow">Trusted Expertise</p>
+        <h2>Your Health Comes First</h2>
+        <p>We use the latest treatments and provide a safe, comfortable medical environment. The center delivers integrated care for physical and mental wellness.</p>
+        <a class="button outline" href="about.html">Learn More About Us</a>
+      </div>
+      <div class="about-image">
+        <img src="assets/images/team.svg" alt="Medical team" loading="lazy">
+      </div>
+    </section>
+
+    <section class="media-section container">
+      <div class="media-card">
+        <h2>Health Education Video</h2>
+        <div class="video-wrapper">
+          <video id="health-video" controls poster="assets/images/video-poster.svg" preload="metadata" playsinline>
+            <source id="health-video-source" data-orig-src="dona.mp4" src="dona.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="media-card">
+        <h2>Audio Track</h2>
+        <audio id="health-audio" controls preload="metadata">
+          <source id="health-audio-source-1" data-orig-src="dona-audio.wav" src="dona-audio.wav" type="audio/wav">
+          <source id="health-audio-source-2" data-orig-src="dona.mp4" src="dona.mp4" type="audio/mp4">
+          <source id="health-audio-source-3" data-orig-src="dona.mp4" src="dona.mp4" type="video/mp4">
+          Your browser does not support audio playback.
+        </audio>
+        <p>This audio player now uses a local WAV track provided with the site.</p>
+        <p class="media-note" id="media-note">If you do not hear audio, make sure your device volume is up and the browser is not muted.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Dona Medical Center. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
